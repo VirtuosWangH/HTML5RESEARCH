@@ -8,6 +8,8 @@ LOCAL_MODULE_FILENAME := libcocos2djs
 
 LOCAL_SRC_FILES := hellojavascript/main.cpp \
                    ../../Classes/AppDelegate.cpp\
+                   ../../Classes/JSB_Manual_Test.cpp\
+                   ../../Classes/MyClass.cpp
 
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../../Classes
 
