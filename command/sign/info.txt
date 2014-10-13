@@ -1,0 +1,20 @@
+使用keytool生成证书Keystore
+
+keytool  C:\Program Files\Java\jdk1.7.0_17\bin
+keytool -genkey -alias android.keystore -keyalg RSA -validity 100 -keystore android.keystore
+
+
+zipalign  D:\Program Files\Android\sdk\tools
+
+steps:
+please input the absolute/relative path of ".keystore" file : D:/HTML5/work/slotRunning3/publish/android/android.keystore
+please input the password of key store : 147896
+please input the alias : android.keystore
+please input the password of alias : 147896
+
+frameworks\rintime-src\proj.android\ant.properties
+key.store=d:\folder\XX.keystore
+change to / or \\
+
+
+anysdk
